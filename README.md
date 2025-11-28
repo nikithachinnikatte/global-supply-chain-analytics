@@ -1,4 +1,4 @@
-<img width="320" height="180" alt="image" src="https://github.com/user-attachments/assets/03a8cb03-b4fd-4beb-91a9-19a54cc458a3" /># global-supply-chain-analytics
+# global-supply-chain-analytics
 End-to-end Supply Chain Analytics System using Python ETL, Neon PostgreSQL, and Power BI dashboards.
 This project is an end-to-end Supply Chain Analytics System built using:
 
