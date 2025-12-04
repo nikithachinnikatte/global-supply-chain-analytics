@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-# === CHANGE THIS LINE TO YOUR REAL CSV PATH ===
+
 CSV_PATH = r"C:\Users\POWERBI PROJECT\data\raw\DataCoSupplyChainDataset.csv"
 # Example:
 # CSV_PATH = r"C:\Users\POWERBI PROJECT\data\raw\DataCoSupplyChainDataset.csv"
