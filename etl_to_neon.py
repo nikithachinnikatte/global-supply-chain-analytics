@@ -4,7 +4,7 @@ from sqlalchemy import create_engine
 # ========= 1. CONFIG =========
 
 # 1) Your Neon URL (same style you used in setup_db.py)
-NEON_URL = "postgresql+psycopg2://neondb_owner:npg_H3BTFGQIzNL9@ep-lingering-darkness-a13w1fg0-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require"
+NEON_URL = "postgresql+psycopg2://neondb_owner:**************@ep-lingering-darkness-a13w1fg0-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require"
 
 # 2) Path to your CSV (the one that worked in check_columns.py)
 CSV_PATH = r"C:\Users\POWERBI PROJECT\data\raw\DataCoSupplyChainDataset.csv"
@@ -213,4 +213,5 @@ with engine.begin() as conn:
 
 print("✅ ETL complete. Data is now in Neon PostgreSQL.")
 #etl_to_neon
+
 
