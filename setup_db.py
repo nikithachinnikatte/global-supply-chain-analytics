@@ -2,7 +2,7 @@
 from sqlalchemy import create_engine, text
 
 # 1) PASTE YOUR NEON CONNECTION STRING HERE (IN THIS EXACT FORMAT)
-NEON_URL = "postgresql+psycopg2://neondb_owner:npg_H3BTFGQIzNL9@ep-lingering-darkness-a13w1fg0-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require"
+NEON_URL = "postgresql+psycopg2://neondb_owner:*********@ep-lingering-darkness-a13w1fg0-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require"
 
 engine = create_engine(NEON_URL)
 
@@ -60,4 +60,5 @@ with engine.begin() as conn:
 
 print("✅ Tables created (or already existed) in Neon.")
 #setup_db
+
 
